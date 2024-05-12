@@ -65,7 +65,7 @@ client.on("interactionCreate", async (interaction) => {
             embeds: [
                 new EmbedBuilder()
                     .setTitle("Link Dispenser")
-                    .setDescription(" ➜ Click the button to dispense a link\n ➜ You may only dispense 3 links in a week\n ➜ Your weekly links will reset every Monday")
+                    .setDescription(" ➜ Click the button to dispense a link\n ➜ You may only dispense 3 links in a week\n ➜ Your weekly links will reset every Sunday")
                     .setColor("NotQuiteBlack")
             ],
             components: [
