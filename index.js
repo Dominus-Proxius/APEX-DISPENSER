@@ -36,7 +36,7 @@ client.on("interactionCreate", async (interaction) => {
                 currentNumber = parseInt(db.get(id));
                 if (currentNumber >= 3) {
                     await interaction.reply({
-                        content: "You have dispensed your maximum amount of links this week. Your numbers will be reset next Monday.",
+                        content: "You have dispensed your maximum amount of links this week. Your numbers will be reset next Sunday.",
                         ephemeral: true
                     });
                     return;
